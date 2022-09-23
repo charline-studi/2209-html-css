@@ -21,7 +21,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | Numéro | Date       | Heure     | Type      | Titre                                                         | Replay                |
 | ------ | ---------- | --------- | --------- | ------------------------------------------------------------- | --------------------- |
 | 01     | 23/09/2022 | 10h - 11h | Théorique | Découverte du HTML 🙂                                         | https://app.studi.fr/#/dashboard/events/38691/replay |
-| 02     | 23/09/2022 | 15h - 16h | Projet    | Lancement du projet "copycat" Station F 🙌                    | Pas encore disponible |
+| 02     | 23/09/2022 | 15h - 16h | Projet    | Lancement du projet "copycat" Station F 🙌                    | https://app.studi.fr/#/dashboard/events/38693/replay |
 | 03     | 26/09/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | Pas encore disponible |
 | 04     | 30/09/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | Pas encore disponible |
 | 05     | 03/10/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | Pas encore disponible |
@@ -36,3 +36,4 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 -[Télécharger VS Code](https://code.visualstudio.com/)
 -[Extension Indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 -[Documentation Mozilla](https://developer.mozilla.org/fr/)
+-[Station F](https://stationf.co/)
