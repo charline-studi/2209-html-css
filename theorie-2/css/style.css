@@ -1,0 +1,69 @@
+/*
+
+balise {
+    propriété-css: valeur;
+}
+
+*/
+
+body {
+    background-color: tomato;
+}
+
+/*
+
+DRY : Don't Repeat Yourself
+
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
+h5 {
+    color: #FFFFFF;
+}
+
+h6 {
+    color: #FFFFFF;
+}
+
+*/
+
+/* Sélectionner plusieurs éléments avec une virgule : */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+
+/* Sélectionner un élément via un class */
+.bleu {
+    color: rgb(0, 0, 125);
+}
+
+.blanc {
+    color: #FFFFFF
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 200; /* 200 / 400 / 500 / 600 ... 900 */
+}
+
+.couleur-vert {
+    color: green
+}
+
+/* Sélectionner via un id */
+#titre-h5 {
+    opacity: 0.5;
+}
