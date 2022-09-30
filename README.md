@@ -23,7 +23,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 01     | 23/09/2022 | 10h - 11h | Théorique | Découverte du HTML 🙂                                         | https://app.studi.fr/#/dashboard/events/38691/replay |
 | 02     | 23/09/2022 | 15h - 16h | Projet    | Lancement du projet "copycat" Station F 🙌                    | https://app.studi.fr/#/dashboard/events/38693/replay |
 | 03     | 26/09/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | https://app.studi.fr/#/dashboard/events/38694/replay |
-| 04     | 30/09/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | Pas encore disponible |
+| 04     | 30/09/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | https://app.studi.fr/#/dashboard/events/38695/replay |
 | 05     | 03/10/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | Pas encore disponible |
 | 06     | 07/10/2022 | 10h - 11h | Projet    | Suite de intégration du projet Station F 🖌                    | Pas encore disponible |
 | 07     | 13/10/2022 | 14h - 15h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | Pas encore disponible |
@@ -33,8 +33,10 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 
 ## Ressources
 
--[Télécharger VS Code](https://code.visualstudio.com/)
--[Extension Indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
--[Documentation Mozilla](https://developer.mozilla.org/fr/)
--[Station F](https://stationf.co/)
--[Sélecteur de couleur](https://htmlcolorcodes.com/fr/selecteur-de-couleur/)
+- [Télécharger VS Code](https://code.visualstudio.com/)  
+- [Extension Indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)  
+- [Documentation Mozilla](https://developer.mozilla.org/fr/)  
+- [Station F](https://stationf.co/)  
+- [Sélecteur de couleur](https://htmlcolorcodes.com/fr/selecteur-de-couleur/)  
+- [Guide flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- [Jeu flexbox froggy](https://flexboxfroggy.com/#fr)

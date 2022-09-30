@@ -1,0 +1,58 @@
+/* VÉRIFIER LE LIEN AVEC LE HTML */
+
+body {
+    background-color: aqua;
+}
+
+img {
+    width: 200px;
+}
+
+/* STYLISATION DE TEXTES */
+
+.intro {
+    background-color:beige;
+}
+
+h1 {
+    background-color: grey;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+/* FLEX */
+
+.flex {
+    background-color: azure;
+}
+
+.title {
+    text-align: center;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+}
+
+.bloc {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+}
