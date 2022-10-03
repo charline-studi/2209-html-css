@@ -1,0 +1,36 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.block {
+    display: block;
+    background-color: red;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: orange;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+p {
+    background-color: pink;
+}
+
+a {
+    background-color: yellowgreen;
+}
+
+img {
+    width: 70px;
+}

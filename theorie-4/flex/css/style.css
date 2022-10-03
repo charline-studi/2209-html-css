@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: blue;
+    height: 150px;
+    display: flex;
+    flex-direction: row; /* gère la direction de l'alignement : row , row-reverse, column, column-reverse*/
+    flex-wrap: wrap; /* gère la compression des blocs : wrap, nowrap */
+    gap: 10px 20px; /* gère espacement entre les blocs : 20px, 20px 20px, top right*/
+    
+    justify-content: space-between; /* gère alignement horizontal : flex-start, flex-end, space-between, space-around, space-evenly */
+    align-items: center; /* gère alignement vertical : flex-start, flex-end, space-between, space-around, space-evenly */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.four {
+    background-color: tomato;
+    order: -1;
+}
