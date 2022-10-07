@@ -25,7 +25,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 03     | 26/09/2022 | 10h - 11h | Théorique | Découverte du CSS 🙃                                          | https://app.studi.fr/#/dashboard/events/38694/replay |
 | 04     | 30/09/2022 | 10h - 11h | Théorique | La techno moderne CSS qui facilite l'intégration : flexbox 🚀 | https://app.studi.fr/#/dashboard/events/38695/replay |
 | 05     | 03/10/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | https://app.studi.fr/#/dashboard/events/38696/replay |
-| 06     | 07/10/2022 | 10h - 11h | Projet    | Suite de intégration du projet Station F 🖌                    | Pas encore disponible |
+| 06     | 07/10/2022 | 15h - 16h | Projet    | Suite de intégration du projet Station F 🖌                    | https://app.studi.fr/#/dashboard/events/38697/replay |
 | 07     | 13/10/2022 | 14h - 15h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | Pas encore disponible |
 | 08     | 14/10/2022 | 10h - 11h | Projet    | Responsive de notre projet Station F 📱                       | Pas encore disponible |
 | 09     | 24/10/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | Pas encore disponible |
@@ -40,3 +40,4 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [Sélecteur de couleur](https://htmlcolorcodes.com/fr/selecteur-de-couleur/)  
 - [Guide flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 - [Jeu flexbox froggy](https://flexboxfroggy.com/#fr)
+- [Icônes libres de droit](https://remixicon.com/)

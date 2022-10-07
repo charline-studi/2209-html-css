@@ -2,26 +2,30 @@
 <html>
     <head>
         <title>Recode StationF 🚀</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
 
         <!-- START header : Le menu de ma page -->
-        <header>
-            <img src="images/logo.png" alt="Logo de StationF" >
+        <header class="header">
+            <img class="logo" src="images/logo.png" alt="Logo de StationF" >
             <nav>
                 <!-- UL = Unordered List = Liste non ordonnée -->
-                <ul>
-                    <li>
+                <ul class="list-links">
+                    <li class="nav-link">
                         <!-- _self = ouverture du lien dans l'onglet actuel -->
                         <a href="https://www.stationf.co" target="_self">
                             Start-up
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-link">
                         <!-- _blank = ouverture du lien dans un nouvel onglet -->
                         <a href="https://www.stationf.co" target="_blank">
                             Programmes start-up
                         </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Postuler</a>
                     </li>
                 </ul>
             </nav>
@@ -29,7 +33,21 @@
         <!-- END header -->
 
 
-        <main>Je suis le contenu textuel de ma balise main</main>
+        <main>
+            <!-- START Cover : La première section de la page -->
+            <section class="cover">
+                <div>
+                    <h1>Plus grand campus de start-up du monde à Paris</h1>
+                    <p>Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 30 programmes d'accompagnement et de nombreux services au coeur de Paris.</p>
+                    <a href="">
+                        <img src="./images/arrow-down.svg" alt="Cliquez ici pour accéder à la section ...">
+                    </a>
+                </div>
+                <img src="./images/home.jpg" class="image-office" alt="Photographie des locaux de Station F">
+            </section>
+            <!-- END Cover -->
+        </main>
         <footer></footer>
     </body>
 </html>
+
