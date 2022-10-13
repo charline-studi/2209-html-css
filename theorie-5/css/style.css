@@ -1,0 +1,95 @@
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+}
+
+/* vw = viewport width */
+/* vh = viewport height */
+.left {
+    width: 50%;
+    background-color: blue;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+}
+
+
+
+/*
+*
+Condition: 
+la width ne doit pas dépasser la max-width, 
+qui est de 1000px
+*
+*/
+@media (max-width: 1000px) {
+    .right {
+        background-color: green;
+        flex-grow: 1;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+}
+
+/*
+*
+Condition: 
+la width ne doit pas dépasser la max-width, 
+qui est de 500px
+*
+*/
+@media (max-width: 500px) {
+    .right {
+        background-color: purple;
+    }
+}
+
+
+
+/*
+*
+Condition: 
+la width doit être supérieur à la min-width, 
+qui est de 500px
+*
+*/
+@media (min-width: 500px) {
+    .left {
+        background-color: purple;
+    }
+}
+
+/* orientation = landscape / portrait */
+@media (max-width: 500px) and (orientation: landscape) {
+    h1 {
+        color: white
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    h1 {
+        font-size: 14px
+    }
+}
