@@ -27,7 +27,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 05     | 03/10/2022 | 10h - 11h | Théorique | Comment positionner des éléments sans flexbox 🤔              | https://app.studi.fr/#/dashboard/events/38696/replay |
 | 06     | 07/10/2022 | 15h - 16h | Projet    | Suite de intégration du projet Station F 🖌                    | https://app.studi.fr/#/dashboard/events/38697/replay |
 | 07     | 13/10/2022 | 14h - 15h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | https://app.studi.fr/#/dashboard/events/38698/replay |
-| 08     | 14/10/2022 | 10h - 11h | Projet    | Responsive de notre projet Station F 📱                       | Pas encore disponible |
+| 08     | 14/10/2022 | 10h - 11h | Projet    | Responsive de notre projet Station F 📱                       | https://app.studi.fr/#/dashboard/events/38699/replay |
 | 09     | 24/10/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | Pas encore disponible |
 | 10     | 28/10/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | Pas encore disponible |
 

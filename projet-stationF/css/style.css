@@ -1,16 +1,53 @@
+/* 
+Reset : 
+réinitialise (efface) les styles par défaut du navigateur
+*/
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul, ol {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général */
+
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+.flux {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+@media (max-width: 500px) {
+    .flux {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
 /* START : Stylisation du header */
 
 .header {
-    background-color:grey;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .list-links {
     display: flex;
-    list-style: none;
-    column-gap: 20px;
+    column-gap: 40px;
     align-items: center;
 }
 
@@ -21,13 +58,15 @@
 
 .nav-link {
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .nav-link:last-child {
     background-color: black;
     color: white;
-    padding: 10px 15px;
-    border-radius: 20px
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 500;
 }
 
 /* 
@@ -48,9 +87,42 @@ Pour l'élément à la position 2
 
 .cover {
     display: flex;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .cover {
+        flex-direction: column;
+    }
 }
 
 .image-office {
     width: 55%;
     flex-shrink: 0;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.icon-scroll {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.cover-introduction {
+    margin-bottom: 30px;
+}
+
+.cover-text {
+    padding-right: 100px;
 }
