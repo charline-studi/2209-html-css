@@ -28,7 +28,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 06     | 07/10/2022 | 15h - 16h | Projet    | Suite de intégration du projet Station F 🖌                    | https://app.studi.fr/#/dashboard/events/38697/replay |
 | 07     | 13/10/2022 | 14h - 15h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | https://app.studi.fr/#/dashboard/events/38698/replay |
 | 08     | 14/10/2022 | 10h - 11h | Projet    | Responsive de notre projet Station F 📱                       | https://app.studi.fr/#/dashboard/events/38699/replay |
-| 09     | 24/10/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | Pas encore disponible |
+| 09     | 24/10/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | https://app.studi.fr/#/dashboard/events/38700/replay |
 | 10     | 28/10/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | Pas encore disponible |
 
 ## Ressources
@@ -42,3 +42,6 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 - [Jeu flexbox froggy](https://flexboxfroggy.com/#fr)
 - [Icônes libres de droit](https://remixicon.com/)
 - [Liste des medias queries](https://developer.mozilla.org/fr/docs/Web/CSS/@media)
+- [Liste des propriéts CSS animables](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_animated_properties)
+- [Pseudo-class](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes)
+- [Cubic-Bezier Personnalisés](https://cubic-bezier.com/#.17,.67,.83,.67)

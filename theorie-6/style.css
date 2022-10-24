@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*
+    Fluidité des animations
+    transition: [quelle propriété CSS] [duree] [style de déplacement] 
+    */
+
+    /* transition: 
+        background-color 2s linear, 
+        width 2s linear,
+        height 2s linear, 
+        transform 2s linear; */
+
+    transition: all 0.25s linear;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    transition: opacity 2s linear;
+}
+
+.square:hover {
+    transition: all 10s linear;
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    transform: rotate(180deg);
+}
+
+.square:hover p {
+    color: white;
+    opacity: 0;
+}
+
+.square p:hover {
+    color: green;
+}
