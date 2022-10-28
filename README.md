@@ -29,7 +29,7 @@ Et les lives "Projet" prendront le relai et permettront de mettre en application
 | 07     | 13/10/2022 | 14h - 15h | Théorique | Nouvelle étape CSS : le responsive 🧐                         | https://app.studi.fr/#/dashboard/events/38698/replay |
 | 08     | 14/10/2022 | 10h - 11h | Projet    | Responsive de notre projet Station F 📱                       | https://app.studi.fr/#/dashboard/events/38699/replay |
 | 09     | 24/10/2022 | 10h - 11h | Théorique | Dernière étape CSS, les notions avancées 💃                   | https://app.studi.fr/#/dashboard/events/38700/replay |
-| 10     | 28/10/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | Pas encore disponible |
+| 10     | 28/10/2022 | 10h - 11h | Projet    | Finalisation de notre intégration 🥳                          | https://app.studi.fr/#/dashboard/events/38701/replay |
 
 ## Ressources
 

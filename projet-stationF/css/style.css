@@ -15,6 +15,7 @@ ul, ol {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Style général */
@@ -33,6 +34,20 @@ ul, ol {
         margin-left: 15px;
         margin-right: 15px;
     }
+}
+
+.title-2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    display: inline-block;
 }
 
 /* START : Stylisation du header */
@@ -125,4 +140,60 @@ Pour l'élément à la position 2
 
 .cover-text {
     padding-right: 100px;
+}
+
+
+/* START : Stylisation des programs */
+
+.programs {
+    background-color: #202020;
+    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.programs .flux {
+    display: flex;
+    gap: 50px
+}
+
+.programs .container-texts {
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.programs .title-2 {
+    width: 75%;
+    line-height: 1.25;
+}
+
+.programs .container-texts .button {
+    margin-top: 50px;
+}
+
+.programs .container-texts p {
+    flex-grow: 1;
+}
+
+.programs .container-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px
+}
+
+.programs .container-images li {
+    background-color: white;
+    border-radius: 10px;
+    width: calc(50% - 25px / 2);
+    height: 130px;
+    padding: 30px;
+}
+
+.programs .container-images li img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
