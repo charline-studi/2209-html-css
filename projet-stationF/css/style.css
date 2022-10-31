@@ -18,6 +18,10 @@ ul, ol {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Style général */
 
 * {
@@ -39,6 +43,11 @@ ul, ol {
 .title-2 {
     font-size: 40px;
     margin-bottom: 20px;
+    line-height: 1.25;
+}
+
+.text-paragraphe {
+    line-height: 1.5;
 }
 
 .button {
@@ -46,8 +55,28 @@ ul, ol {
     color: white;
     border-radius: 20px;
     padding: 10px 20px;
-    background-color: red;
     display: inline-block;
+}
+
+.button-orange {
+    background: linear-gradient(90deg, #ff3592, #ffb800 50% 100%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 0.5s;
+}
+
+.button-orange:hover {
+    background-position: left;
+}
+
+
+.button-black {
+    background-color: black;
+    transition: background-color 0.25s;
+}
+
+.button-black:hover {
+    background-color: grey;
 }
 
 /* START : Stylisation du header */
@@ -159,7 +188,6 @@ Pour l'élément à la position 2
 
 .programs .container-texts {
     color: white;
-    line-height: 1.5;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -167,7 +195,6 @@ Pour l'élément à la position 2
 
 .programs .title-2 {
     width: 75%;
-    line-height: 1.25;
 }
 
 .programs .container-texts .button {
@@ -196,4 +223,44 @@ Pour l'élément à la position 2
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+/* START : Stylisation du online */
+
+/* 
+Dégradé écriture
+propriété : function(angle, couleur1, couleur2 debut fin, couleur3, ....) 
+
+EXEMPLES 
+    background: linear-gradient(90deg, blue, red);
+    background: linear-gradient(to left bottom, blue, red);
+    background: linear-gradient(45deg, blue 0%, green 20%, red 50%);
+    background: linear-gradient(0,red 0% 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80% 100%);
+    background: linear-gradient(0, rgba(0, 0, 0),rgba(0, 0, 0, 0) 25% );
+FIN EXEMPLE 
+
+*/
+
+.online {
+    background: linear-gradient(180deg, #202020 0% 50%, white 50% 100%);
+}
+
+.online .online-content {
+    display: flex;
+    padding: 75px 50px 50px;
+    background: linear-gradient(90deg, #ff3592,#ffb800);
+}
+
+.online img {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.online .container-texts {
+    width: 50%;
+    color: white;
+}
+
+.online .container-texts a {
+    margin-top: 50px;
 }
